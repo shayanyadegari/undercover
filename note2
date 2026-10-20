@@ -1,0 +1,3 @@
+with gpu memory we can check if the model fits in or not.
+
+but we have also the term bandwith, which means how fast gpu can read info from memory...
