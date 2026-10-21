@@ -24,5 +24,18 @@ Quantization-Aware Training (qat -> you might see this term in some models name)
 is a technique that trains or fine-tunes a neural network to maintain its accuracy even when its weights and/or activations are represented using fewer bits, such as INT8 or INT4 instead of FP16 or FP32.
 we can save model like gguf which contains all files, like weights, meta data, tokenizer and ...
 the other method is safe tensors, which everything is seprted.
+--------------------------------------------
 
+uv tool install llmfit
+llmfit
+
+--------------------------
+
+Be careful when using an AI model aggregator like OpenRouter because it provides access to models from different providers. Some models or provider routes might not support structured outputs, which can make your application unstable or unreliable.
+you can ask provider to allow to change model or not in params..
+
+-------------------------------
+
+the whole point of this day is have a setup and check each model accuracy based on your business and the cost.
+then choose the model that is appropierate for you...
 
