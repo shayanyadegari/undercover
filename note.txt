@@ -1,0 +1,46 @@
+prompt catching,
+input token which first post is the same so it cost less price in api/.
+
+technic is used in claude code.
+
+========
+with gpu memory we can check if the model fits in or not.
+
+but we have also the term bandwith, which means how fast gpu can read info from memory...
+
+some of the models has less gaurd, like antropic release an ungaurded model name mytos.
+
+MoE(Mixture of Experts) -> this is the model where only part of the model get calculated when you run it.
+something like cobination of smaller models...( dense models are a bit smarter)
+
+for example if you ask question related to generate code, only that part is runs...
+
+so each of building blocks that needs to be run it called experts...
+example: Qwen3.6 35b, A3B -> which means 3b param will be activated on one questions.
+then it goes down to model architecture...
+this training of model is cheaper, and faster in infrence.
+
+rooter: is something like internal arrangement of llm. like how they decide what would be next token that they generate
+with root, and over training, the llm understand which expert needs to be activated.
+
+========================================================
+
+quantization.
+Quantization-Aware Training (qat -> you might see this term in some models name):
+is a technique that trains or fine-tunes a neural network to maintain its accuracy even when its weights and/or activations are represented using fewer bits, such as INT8 or INT4 instead of FP16 or FP32.
+we can save model like gguf which contains all files, like weights, meta data, tokenizer and ...
+the other method is safe tensors, which everything is seprted.
+--------------------------------------------
+
+uv tool install llmfit
+llmfit
+
+--------------------------
+
+Be careful when using an AI model aggregator like OpenRouter because it provides access to models from different providers. Some models or provider routes might not support structured outputs, which can make your application unstable or unreliable.
+you can ask provider to allow to change model or not in params..
+
+-------------------------------
+
+the whole point of this day is have a setup and check each model accuracy based on your business and the cost.
+then choose the model that is appropierate for you...
