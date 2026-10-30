@@ -39,8 +39,20 @@ llmfit
 
 Be careful when using an AI model aggregator like OpenRouter because it provides access to models from different providers. Some models or provider routes might not support structured outputs, which can make your application unstable or unreliable.
 you can ask provider to allow to change model or not in params..
+---------------------------------------
+long fuse help us record couple of different experience against each other and compare them to see which work better.
+and with this we can change a part and see the effect.
 
--------------------------------
+open account in langfuse...
+
+9:45. there is some api that after creating project you need to add to .env
+
+
+
+
+
+
+
 
 the whole point of this day is have a setup and check each model accuracy based on your business and the cost.
 then choose the model that is appropierate for you...
