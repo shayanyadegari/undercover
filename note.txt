@@ -47,6 +47,9 @@ open account in langfuse...
 
 9:45. there is some api that after creating project you need to add to .env
 
+==========================================
+
+when you can do something in code do it in code instead of rely on llm autonomy to predict next token.
 
 
 
