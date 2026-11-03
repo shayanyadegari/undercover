@@ -51,7 +51,9 @@ open account in langfuse...
 
 when you can do something in code do it in code instead of rely on llm autonomy to predict next token.
 
+=======================================================
 
+its your job to define score and then define how well the model is done the work...
 
 
 
