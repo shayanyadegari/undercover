@@ -61,3 +61,7 @@ its your job to define score and then define how well the model is done the work
 
 the whole point of this day is have a setup and check each model accuracy based on your business and the cost.
 then choose the model that is appropierate for you...
+
+================================================
+
+you are responsible on what you creating. make sure that the report that you send out is not make friction for other teams
