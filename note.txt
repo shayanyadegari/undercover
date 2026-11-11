@@ -3,7 +3,7 @@ input token which first post is the same so it cost less price in api/.
 
 technic is used in claude code.
 
-========
+=========
 with gpu memory we can check if the model fits in or not.
 
 but we have also the term bandwith, which means how fast gpu can read info from memory...
